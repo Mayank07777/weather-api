@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEather api</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="wether-icon">
+            <div class="search-btn">
+            <input type="text" placeholder="Enter place name" id="input">
+            <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="icon-back">
+             <img src="clouds.png" id="icon">
+            </div>
+            <p id="temp">41°C</p>
+            <p id="location">Delhi</p>
+        </div>
+        <div class="mid-image">
+            <img src="house.png (2).png" id="house">
+        </div>
+        <div class="second-continer">
+            <div class="date-time">
+              <p id="date">17 octo 2025</p>
+              <p id="time">20:00pm</p>
+            </div>
+            <div class="wind-humidity">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet" id="img"></i>
+                    <div class="humidity-text">
+                  <p id="humidity-no">41</p>
+                 <p id="humidity">HUMIDITY</p>
+                 </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind" id="img"></i>
+                    <div class="wind-text">
+                    <p id="wind-no">26 Km/h</p>
+                    <p id="wind">wind</p>
+                    </div>
+                </div> 
+            </div>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
